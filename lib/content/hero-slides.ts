@@ -8,10 +8,10 @@ export type HeroSlide = {
 
 export const HERO_SLIDES: HeroSlide[] = [
   {
-    img: "https://images.unsplash.com/photo-1625772299848-391b6a87d7b3?w=1400&q=85",
-    tag: "Featured Drop",
-    title: "Maximum Taste\nNo Sugar",
-    sub: "Discover the boldest flavors from top beverage brands worldwide.",
+    img: "/hero/agri-tech-slide.png",
+    tag: "Agri-Tech Spotlight",
+    title: "Tillage Done\nRight",
+    sub: "Walk-behind power weeders that break tough soil fast — less labor, bigger harvests, from field to furrow.",
     cta: "Shop Now",
   },
   {
@@ -22,10 +22,10 @@ export const HERO_SLIDES: HeroSlide[] = [
     cta: "Explore",
   },
   {
-    img: "/hero/agri-tech-slide.png",
+    img: "/products/mini-tiller-7hp.png",
     tag: "Wholesale Deals",
-    title: "Shop Smarter\nwith Kart",
-    sub: "Your one-stop wholesale marketplace for every need.",
+    title: "Farm Smarter\nwith Kart",
+    sub: "Your one-stop wholesale marketplace for agri-tech and everyday essentials.",
     cta: "Get Started",
   },
 ];

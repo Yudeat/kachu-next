@@ -104,7 +104,7 @@ function ProductsSectionInner({
 
   const totalPages = Math.max(1, Math.ceil(filteredProducts.length / ITEMS_PER_PAGE));
   const visiblePages = useMemo(
-    () => getVisiblePageNumbers(currentPage, totalPages),
+    () => getVisiblePageNumbers(currentPage, totalPages, 3),
     [currentPage, totalPages]
   );
 
@@ -249,7 +249,7 @@ function ProductsSectionInner({
                   <span>Back</span>
                 </button>
 
-                <div className="flex max-w-[min(100%,280px)] flex-wrap justify-center gap-2 sm:max-w-none sm:gap-4">
+                <div className="flex max-w-full flex-nowrap justify-center gap-2 sm:gap-4">
                   {visiblePages[0] > 1 ? (
                     <span className="flex h-11 items-center px-1 text-xs text-slate-400">…</span>
                   ) : null}
